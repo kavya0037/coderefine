@@ -1,4 +1,7 @@
 from dotenv import load_dotenv
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 load_dotenv()
 
 from analyzer import analyze_code
